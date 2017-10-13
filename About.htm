@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me - Hou Sheng Chiang</title>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="icon" href="img\DaiwanBeeru.png">
+	<style type="text/css">
+		body{
+			margin: auto;
+			width: 100%;
+			min-width: 1040px;
+			font-family: 'Roboto', sans-serif;
+			background-color: #f2ffe6;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		#Web_Icon{
+			float: left;
+			height: 27px;
+			margin-top: -5px;
+			margin-right: 5px;
+		}
+		#nav_bg{
+			background-color: #336600;
+			top: 0px;
+			position: sticky;
+		}
+		nav{
+			margin: auto;
+			width: 77%;
+			color: white;
+			font-size: 18px;
+		}
+		.containers{
+			height: 98vh;
+			width: 77%;
+			min-width: 740px;
+			margin: auto;
+		}
+		.nav_tab{
+			display: inline-block;
+			vertical-align: middle;
+			padding: 15px;
+			//margin: 0px 11px 0px 11px;
+		}
+		.nav_tab:hover{
+			background-color: #4d4d4d;
+		}
+		#social_tab_container{
+			float: right;
+			padding-top: 14px ;
+		}
+		.social_tab{
+			float: right;
+		}
+		.social_icon{
+			//position: relative;
+			height: 25px;
+			right: 0px;
+		}
+		#Home{
+			border: 1px solid black;
+			padding-top: 50px;
+			padding-bottom: -50px;
+			display: -webkit-box;
+			height: 100%;
+		}
+		#ProfilePic{
+			float: left;
+			height: 200px;
+			margin: 30px;
+		}
+		.badges{
+			height: 80px;
+		}
+	</style>
+	<script type="text/javascript">
+		function demo(){
+			var x = document.getElementById("more");
+			x.scrollTop=x.scrollHeight;
+		}
+
+	</script>
+</head>
+<body>
+	<header></header>
+	<div id="nav_bg">
+		<nav>
+			<span>
+				<a href="About.htm" alt="About Me"><div class="nav_tab"> <img id="Web_Icon" src="img\DaiwanBeeru.png">HOU SHENG CHIANG</div></a>|
+				<a href="#experience"><div class="nav_tab">Experience</div></a>|
+				<a href="#educations"><div class="nav_tab">Educations</div></a>|
+				<a href="#skills"><div class="nav_tab">Skills</div></a>|
+				<a href="#interests"><div class="nav_tab">Interest</div></a>|
+				<a onclick="demo()"><div class="nav_tab"> More...</div></a>
+			</span>
+			<span id="social_tab_container">
+				<div class="social_tab"><a href="www.linkedin.com/in/hou-sheng-chiang-44a88666"><img class="social_icon" src="img\Linkedin_Icon.png"></a></div>
+			</span>
+		</nav>
+	</div>
+	<div id="Home" class="containers">
+		
+		<div class="containers">
+			<img id="ProfilePic" src="img\HSProfilePicture.jpg">			
+			<h2 class="title">Chiang, Hou Sheng 蔣後聖 <img src="img/Taiwan.png" style=" height: 16px; vertical-align: text-bottom;"></h2>
+			<h5 style="line-height: 0px">Apex, North Carolina</h5>
+			<hr>
+			<p>Programmer | Web Developer | Casual Gamer</p>
+			<a href = "https://www.youracclaim.com/badges/eabcc087-974b-4451-834a-255a7182dc92" target="_blank"><img class="badges" alt= "MTA 98-361" src="https://acclaim-production-app.s3.amazonaws.com/images/dd81e911-710a-4657-bbf9-a4d28416257a/MTA%2BSoftware%2BDevelopment%2BFundamentals-01-2.png"></a>
+		</div>
+	</div>
+	<hr>
+	<div id="experience" class="containers">
+		<h2 class="title">Experience</h2>
+		<dl>
+			<dt><strong>Rehab Tech</strong>, <i>2016</i></dt>
+			<dd><i>&ndash; The Pavilion at Queens Rehabilitation and Nursing- Queens, NY</i>
+				<li>Organize rehabilitation equiptments, including setting up for patients.</li>
+				<li>Bring patients from their room to rehab center.</li>
+			</dd>
+			<dt><strong>Store Manager</strong>, <i>2012, 2014-2016</i></dt>
+			<dd><i>&ndash; Black Horse Gift Shop - Queens, NY
+				<li>Interview and training new employees</li>
+				<li>Manage and order inventory from manufacturers.</li>
+			</dd>
+			<dt><strong>Psychological Counselor, Private</strong>, <i>2013</i></dt>
+			<dd><i>&ndash; Republic of China Army - Taiwan (R.O.C.)</i>
+				<li>*******</li>
+				<li>*******</li>
+			</dd>
+		</dl>
+	</div>
+	<hr>
+	<div id="educations"  class="containers">
+		<h2 class="title">Educations</h2>
+		<ul>
+			<li>Queensborough CC., New York. &ndash; Liberal Arts.</li>
+			<li>Stony Brook University, New York. &ndash; Psychology.</li>
+			<li>Wake Tech, NC</li>
+		</ul>
+	</div>
+	<hr>
+	<div id="skills"  class="containers">
+		<h2 class="title">Skills</h2>
+		<ul>
+			<li>Web Develop- HTML, CSS, JavaScript</li>
+			<li>Program Dev- C#, VB</li>
+		</ul>
+	</div>
+	<hr>
+	<div id="interests" class="containers">
+		<h2 class="title">Interests</h2>
+		<ul>
+			<li>Tennis</li>
+			<li>Golf</li>
+			<li>Casual Gaming</li>
+		</ul>
+	</div>
+	<hr>
+	<div id="more" class="containers">
+		<h2 class="title">More...</h2>
+		<p>Twitch Streamer. ID: DaiwanBeeru</p>
+	</div>
+	<footer style="margin: auto; text-align: center;">
+		&copy; 2017 Hou Sheng Chiang. All rights reserved.
+	</footer>
+
+</body>
+</html>
